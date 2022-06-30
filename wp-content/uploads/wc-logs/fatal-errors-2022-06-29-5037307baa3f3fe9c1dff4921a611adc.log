@@ -1,0 +1,247 @@
+2022-06-29T10:46:19+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + string in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php:750
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php(992): WC_Discounts->validate_coupon_product_ids(Object(WC_Coupon))
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-coupon.php(865): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1731): WC_Coupon->is_valid()
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\legacy\class-wc-legacy-cart.php(306): WC_Cart->apply_coupon('gift')
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(208): WC_Legacy_Cart->add_discount('gift')
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::apply_coupon('')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_apply_c...')
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(13): do_action('template_redire...')
+#13 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#14 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#15 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php on line 750
+
+2022-06-29T10:46:22+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + string in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php:750
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php(992): WC_Discounts->validate_coupon_product_ids(Object(WC_Coupon))
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-coupon.php(865): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1731): WC_Coupon->is_valid()
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\legacy\class-wc-legacy-cart.php(306): WC_Cart->apply_coupon('gift')
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(208): WC_Legacy_Cart->add_discount('gift')
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::apply_coupon('')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_apply_c...')
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(13): do_action('template_redire...')
+#13 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#14 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#15 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php on line 750
+
+2022-06-29T10:46:35+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + string in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php:750
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php(992): WC_Discounts->validate_coupon_product_ids(Object(WC_Coupon))
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-coupon.php(865): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1731): WC_Coupon->is_valid()
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\legacy\class-wc-legacy-cart.php(306): WC_Cart->apply_coupon('gift')
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(208): WC_Legacy_Cart->add_discount('gift')
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::apply_coupon('')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_apply_c...')
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(13): do_action('template_redire...')
+#13 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#14 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#15 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php on line 750
+
+2022-06-29T10:51:55+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + string in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php:750
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php(993): WC_Discounts->validate_coupon_product_ids(Object(WC_Coupon))
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-coupon.php(865): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1731): WC_Coupon->is_valid()
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\legacy\class-wc-legacy-cart.php(306): WC_Cart->apply_coupon('gift')
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(208): WC_Legacy_Cart->add_discount('gift')
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::apply_coupon('')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_apply_c...')
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(13): do_action('template_redire...')
+#13 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#14 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#15 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php on line 750
+
+2022-06-29T10:54:54+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + string in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php:750
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php(993): WC_Discounts->validate_coupon_product_ids(Object(WC_Coupon))
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-coupon.php(865): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1731): WC_Coupon->is_valid()
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\legacy\class-wc-legacy-cart.php(306): WC_Cart->apply_coupon('gift')
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(208): WC_Legacy_Cart->add_discount('gift')
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::apply_coupon('')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_apply_c...')
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(13): do_action('template_redire...')
+#13 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#14 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#15 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php on line 750
+
+2022-06-29T11:15:00+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\store\functions.php on line 46
+
+2022-06-29T11:17:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function coupon_error_message_change(), 1 passed in C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php on line 309 and exactly 3 expected in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\store\functions.php:45
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(309): coupon_error_message_change('Sorry, this cou...')
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(191): WP_Hook->apply_filters('Sorry, this cou...', Array)
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-discounts.php(1009): apply_filters('woocommerce_cou...', 'Sorry, this cou...', 109, Object(WC_Coupon))
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-coupon.php(865): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1731): WC_Coupon->is_valid()
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\legacy\class-wc-legacy-cart.php(306): WC_Cart->apply_coupon('gift')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(208): WC_Legacy_Cart->add_discount('gift')
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::apply_coupon('')
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_apply_c...')
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): WC_AJAX::do_wc_ajax('')
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(false, Array)
+#13 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#14 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#16 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#17 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\store\functions.php on line 45
+
+2022-06-29T12:17:45+00:00 CRITICAL Uncaught Error: Call to undefined function create_function() in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\options-framework\bootstrap.php:195
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): vp_post_dummy_editor('')
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-admin\admin-footer.php(78): do_action('admin_footer', '')
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-admin\admin.php(297): require_once('C:\\ajency-proje...')
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-admin\themes.php(10): require_once('C:\\ajency-proje...')
+#6 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\options-framework\bootstrap.php on line 195
+
+2022-06-29T12:18:29+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php:1234
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php(1234): implode(Array, ',')
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\scheme.php(292): hb_color('00aeef', 0.85)
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): hb_scheme_styles('')
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(3042): do_action('wp_head')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\header.php(51): wp_head()
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(770): require_once('C:\\ajency-proje...')
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(716): load_template('C:\\ajency-proje...', true, Array)
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\woocommerce\archive-product.php(14): get_header('shop')
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(106): include('C:\\ajency-proje...')
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#13 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#14 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php on line 1234
+
+2022-06-29T12:18:34+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php:1234
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php(1234): implode(Array, ',')
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\scheme.php(292): hb_color('00aeef', 0.85)
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): hb_scheme_styles('')
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(3042): do_action('wp_head')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\header.php(51): wp_head()
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(770): require_once('C:\\ajency-proje...')
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(716): load_template('C:\\ajency-proje...', true, Array)
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\woocommerce\archive-product.php(14): get_header('shop')
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(106): include('C:\\ajency-proje...')
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#13 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#14 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php on line 1234
+
+2022-06-29T12:19:13+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\ajency-projects\xampp\htdocs\testing\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Visual Composer...')
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\class-tgm-plugin-activation.php(3558): Bulk_Upgrader_Skin->after('Visual Composer...')
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\class-tgm-plugin-activation.php(3185): WP_Upgrader->run(Array)
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\class-tgm-plugin-activation.php(3298): TGMPA_Bulk_Installer->run(Array)
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\class-tgm-plugin-activation.php(2914): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\class-tgm-plugin-activation.php(737): TGMPA_List_Table->process_bulk_actions()
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-admin\themes.php(10): require_once('C:\\ajency-proje...')
+#12 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-06-29T12:20:25+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php:1234
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php(1234): implode(Array, ',')
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\scheme.php(292): hb_color('00aeef', 0.85)
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): hb_scheme_styles('')
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(3042): do_action('wp_head')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\header.php(51): wp_head()
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(770): require_once('C:\\ajency-proje...')
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(716): load_template('C:\\ajency-proje...', true, Array)
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\woocommerce\archive-product.php(14): get_header('shop')
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(106): include('C:\\ajency-proje...')
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#13 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#14 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php on line 1234
+
+2022-06-29T12:21:16+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php:1234
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php(1234): implode(Array, ',')
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\scheme.php(292): hb_color('00aeef', 0.85)
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): hb_scheme_styles('')
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(3042): do_action('wp_head')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\header.php(51): wp_head()
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(770): require_once('C:\\ajency-proje...')
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(716): load_template('C:\\ajency-proje...', true, Array)
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\woocommerce\archive-product.php(14): get_header('shop')
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(106): include('C:\\ajency-proje...')
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#13 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#14 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php on line 1234
+
+2022-06-29T12:21:58+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php:1234
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php(1234): implode(Array, ',')
+#1 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\includes\scheme.php(292): hb_color('00aeef', 0.85)
+#2 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(307): hb_scheme_styles('')
+#3 C:\ajency-projects\xampp\htdocs\testing\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\ajency-projects\xampp\htdocs\testing\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(3042): do_action('wp_head')
+#6 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\header.php(51): wp_head()
+#7 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(770): require_once('C:\\ajency-proje...')
+#8 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template.php(716): load_template('C:\\ajency-proje...', true, Array)
+#9 C:\ajency-projects\xampp\htdocs\testing\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\woocommerce\archive-product.php(14): get_header('shop')
+#11 C:\ajency-projects\xampp\htdocs\testing\wp-includes\template-loader.php(106): include('C:\\ajency-proje...')
+#12 C:\ajency-projects\xampp\htdocs\testing\wp-blog-header.php(19): require_once('C:\\ajency-proje...')
+#13 C:\ajency-projects\xampp\htdocs\testing\index.php(17): require('C:\\ajency-proje...')
+#14 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing\wp-content\themes\HighendWP\functions.php on line 1234
+

@@ -1,0 +1,13 @@
+2022-06-30T10:03:31+00:00 CRITICAL Uncaught Error: Class "WPSEO_Options" not found in C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-content\plugins\yoast-test-helper\src\wordpress-plugins\yoast-seo.php:177
+Stack trace:
+#0 C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-content\plugins\yoast-test-helper\src\wordpress-plugins\yoast-seo.php(236): Yoast\WP\Test_Helper\WordPress_Plugins\Yoast_SEO->reset_prominent_words_calculation()
+#1 C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-content\plugins\yoast-test-helper\src\wordpress-plugins\yoast-seo.php(106): Yoast\WP\Test_Helper\WordPress_Plugins\Yoast_SEO->reset_indexables()
+#2 C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-content\plugins\yoast-test-helper\src\wordpress-plugin-features.php(142): Yoast\WP\Test_Helper\WordPress_Plugins\Yoast_SEO->reset_feature('reset_indexable...')
+#3 C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-content\plugins\yoast-test-helper\src\wordpress-plugin-features.php(104): Yoast\WP\Test_Helper\WordPress_Plugin_Features->reset_feature(Object(Yoast\WP\Test_Helper\WordPress_Plugins\Yoast_SEO))
+#4 C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-includes\class-wp-hook.php(307): Yoast\WP\Test_Helper\WordPress_Plugin_Features->handle_reset_feature('')
+#5 C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-admin\admin-post.php(85): do_action('admin_post_word...')
+#8 {main}
+  thrown in C:\ajency-projects\xampp\htdocs\testing_woocommerce\wp-content\plugins\yoast-test-helper\src\wordpress-plugins\yoast-seo.php on line 177
+
